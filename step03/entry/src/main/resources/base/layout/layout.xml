@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:background_element="$media:xingkong">
+
+    <Text
+            ohos:text_color="#ffffff"
+            ohos:above="$id:text2"
+            ohos:center_in_parent="true"
+            ohos:text="没有人能熄灭满天星光"
+            ohos:text_size="25fp"
+            ohos:width="match_content"
+            ohos:height="match_content"></Text>
+
+    <Text
+            ohos:text_color="#ffffff"
+            ohos:id="$+id:text2"
+            ohos:center_in_parent="true"
+            ohos:text="每一位开发者，都是华为要汇聚的星星之火"
+            ohos:text_size="25fp"
+            ohos:width="match_content"
+            ohos:height="match_content"></Text>
+
+
+</DependentLayout>
