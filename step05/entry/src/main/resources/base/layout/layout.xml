@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:orientation="vertical"
+                   ohos:padding="20vp">
+
+    <DependentLayout
+            ohos:width="match_content"
+            ohos:height="match_content">
+
+        <TextField
+                ohos:text_alignment="vertical_center"
+                ohos:left_padding="180vp"
+                ohos:height="80vp"
+                ohos:width="match_parent"
+                ohos:text_size="25fp"
+                ohos:background_element="$graphic:lcy">
+        </TextField>
+
+        <Text
+                ohos:left_margin="20vp"
+                ohos:vertical_center="true"
+                ohos:text="邮件验证码"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="25fp"
+                ></Text>
+        <Text
+                ohos:text_color="#A3ceff"
+                ohos:right_margin="20vp"
+                ohos:vertical_center="true"
+                ohos:align_parent_right="true"
+                ohos:text="发送验证码"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="25fp"
+                ></Text>
+    </DependentLayout>
+
+</DirectionalLayout>
