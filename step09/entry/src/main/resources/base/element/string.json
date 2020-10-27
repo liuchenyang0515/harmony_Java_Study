@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "step09"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "lcyability_description",
+      "value": "hap sample empty page"
+    }
+  ]
+}
