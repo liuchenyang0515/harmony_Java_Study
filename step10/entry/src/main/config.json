@@ -1,0 +1,53 @@
+{
+  "app": {
+    "bundleName": "com.example.step10",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "reqPermissions": [{"name":"ohos.permission.INTERNET"}],
+    "package": "com.example.step10",
+    "name": ".step10",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "formEnabled": false,
+        "name": "com.example.step10.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "step10",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
