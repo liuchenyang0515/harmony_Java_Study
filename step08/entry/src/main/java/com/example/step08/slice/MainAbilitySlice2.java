@@ -40,7 +40,7 @@ public class MainAbilitySlice2 extends AbilitySlice {
             @Override
             public void onClick(Component component) {
                 Intent intent1 = new Intent();
-                intent1.setParam("pwd", "123456"); // 这里123456只能为String类型，不然传回去是null
+                intent1.setParam("pwd", 123456); // 这里123456传String则用getStringParam接收，传int用getIntParam接收，不对应则接收不到
                 setResult(intent1);
                 terminate();
             }

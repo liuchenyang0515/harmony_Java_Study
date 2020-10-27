@@ -50,7 +50,7 @@ public class MainAbilitySlice extends AbilitySlice {
     protected void onResult(int requestCode, Intent resultIntent) {
         super.onResult(requestCode, resultIntent);
         if (requestCode == 123) {
-            String pwd = resultIntent.getStringParam("pwd");
+            int pwd = resultIntent.getIntParam("pwd", 0);
             text.setText("我接收到你的密码" + pwd);
         }
     }
